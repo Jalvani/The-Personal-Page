@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>N.H.</title>
+	<title>Joseph Finlayson</title>
 	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
@@ -37,9 +37,9 @@
 
 <!-- swap out for information about yourself -->
 <div id="about">
-	<p>Naz Hamid is the founder and principal of <a href="http://weightshift.com">Weightshift</a>, a design studio in San Francisco and Chicago. Aside from client work, projects include the community-oriented site <a href="http://interhoods.org">Interhoods</a> and mobile web application, <a href="http://sitby.us">SitBy.Us</a>. The two projects codenamed <em>Suplex</em> and <em>Sleeperhold</em> are aiming to be launched in 2011.</p>
-	<p>He writes about design and tangential topics at <a href="http://weightshift.com/memo">Memo</a>, writes in 140 characters at <a href="http://twitter.com/weightshift">Twitter</a>, posts photos to <a href="http://flickr.com/absenter"/>Flickr</a>, creates 400x300px works-in-progress on <a href="http://dribbble.com/weightshift">Dribbble</a>, sometimes makes moving pictures on <a href="http://vimeo.com/weightshift">Vimeo</a>, records items of interest at <a href="http://svpply.com/weightshift">Svpply</a>, listens to all his music on <a href="http://www.rdio.com/people/weightshift/">Rdio</a> and answers the occasional question on <a href="http://www.quora.com/Naz-Hamid">Quora</a>. He also makes music as <a href="http://murdersandmysteries.com">Murders & Mysteries</a> and released an album in 2010.</p>
-	<p>A <a href="http://en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>, Naz has lived on three continents and in three countries. He currently lives in San Francisco, California, a place where he feels comfortable in his own skin.</p> 
+	<p>Joe is a cofounder. A cofounder of what he isn't sure yet. But it's going to happen soon. He's currently working at  <a href="http://accenture.com">Accenture</a>, a global management consultancy - it's not completely soul-sucking. Aside from client work, side-projects include the and amazon-bitcoin interface and a way for twitter users to meet each other fo reals.</p>
+	<p>He writes about tech, politics and stuff that he stole from facebook 'notes' at this<a href="http://mimsy.co/blog">blog</a>. Listens to all his music on <a href="http://www.last.fm/users/jungboho/">last.fm</a> and asks the occasional question on <a href="http://www.quora.com/Joe-Finlayson">Quora</a>. 
+		<p>This website is absurdly hosted on <a href="http://heroku.com">Heroku</a> because I'm a cheap fucker.</p> 
 </div>
 
 <!--include jquery & backstretch-->
@@ -49,7 +49,7 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("nh_bg.jpg", {speed: 150});
+             $.backstretch("joseph.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load

@@ -32,13 +32,13 @@
 
 <!-- swap out for a logo -->
 <div id="monogram">
-	<img src="monogram.png" />
-</div>
+	<!-- <img src="monogram.png" /> -->
+</div> 
 
 <!-- swap out for information about yourself -->
 <div id="about">
-	<p>Joe is a cofounder. A cofounder of what he isn't sure yet. But it's going to happen soon. He's currently working at  <a href="http://accenture.com">Accenture</a>, a global management consultancy - it's not completely soul-sucking. Aside from client work, side-projects include the and amazon-bitcoin interface and a way for twitter users to meet each other fo reals.</p>
-	<p>He writes about tech, politics and stuff that he stole from facebook 'notes' at this<a href="http://mimsy.co/blog">blog</a>. Listens to all his music on <a href="http://www.last.fm/users/jungboho/">last.fm</a> and asks the occasional question on <a href="http://www.quora.com/Joe-Finlayson">Quora</a>. 
+	<p>Joe is a cofounder. A cofounder of what he isn't sure yet. But it's going to happen soon. He's currently working at  <a href="http://accenture.com">Accenture</a>, a global management consultancy - it's not completely soul-sucking. Aside from client work, side-projects include the and amazon-bitcoin interface and a way for twitter users to meet each other fo' reals.</p>
+	<p>He writes about tech, politics and stuff that he stole from facebook notes at his <a href="http://mimsy.co/blog">blog</a>. Listens to all his music on <a href="http://www.last.fm/users/jungboho/">last.fm</a> and asks the occasional question on <a href="http://www.quora.com/Joe-Finlayson">Quora</a>. 
 		<p>This website is absurdly hosted on <a href="http://heroku.com">Heroku</a> because I'm a cheap fucker.</p> 
 </div>
 

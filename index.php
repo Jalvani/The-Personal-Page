@@ -32,7 +32,7 @@
 
 <!-- swap out for a logo -->
 <div id="monogram">
-	<!-- <img src="monogram.png" /> -->
+	
 </div> 
 
 <!-- swap out for information about yourself -->

@@ -32,8 +32,8 @@
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
 		#about { width: 360px; float:left; padding: 0 150px 0 20px; margin: -35px 50px 0 auto !important; }
-		@media (dev   /*#monogram { position: relative; width: auto; padding: 20px; margin: 0; }*/
-		/*#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }*/
+		/*@media ( #monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+		#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }*/
 		background-image { opacity: 0.2; }
 		
 	</style>
@@ -55,6 +55,7 @@ And the mome raths outgrabe" </p>
 	<p>Joe is a cofounder. A cofounder of what he isn't sure yet. But it's going to happen soon. He's currently working at  <a href="http://accenture.com">Accenture</a>, a global management consultancy - it's not completely soul-sucking. Aside from client work, side-projects include an amazon-bitcoin interface and a way for twitter users to meet each other fo' reals.</p>
 	<p>He writes about tech, politics and stuff that he stole from facebook notes at his <a href="http://mimsy.co/blog">blog</a>. Listens to all his music on <a href="http://www.last.fm/users/jungboho/">last.fm</a> and asks the occasional question on <a href="http://www.quora.com/Joe-Finlayson">Quora</a>. 
 	<p>This website is absurdly hosted on <a href="http://heroku.com">Heroku</a> because I'm cheap.</p> 
+	<p>If you like you can <a href=	"http://uk.linkedin.com/pub/joseph-finlayson/53/7a3/484/">hire</a> me. I'm available for web/tech consultancy and design. Send me an email at <a  href="mailto:joe@mimsy.co">joe@mimsy.co</a>.
 </div>
 
 <!--include jquery & backstretch-->

@@ -15,23 +15,35 @@
 	<style>
 		* { padding: 0; margin: 0;  }
 		body { background-color: #333; }
-		#header p{font-family: helvetica;
-			font-size: 1.5em;
-			font-style: italic;
+		#header{
 			background-color: white;
-			opacity: 0.4;
-			position: relative;
-			display: block;
-			color: black;
+			opacity: .4;
+			position: fixed;
+			width: 100%;
+			display: inline-block;
+			top:0px; margin:auto; 
 			font-style: bold;
 			padding: 3px;
-			border-radius: 2px;
-			text-align: center; }
+			height: 2em;
+			border-radius: 5px;
+			z-index: 0;
+			top:0px; }
+		
+		p.ontop{
+			font-size: 1.5em;
+			font-style: italic;
+			color: black;
+			text-align: center;
+			opacity: 1;
+			top:0.2em;
+			position: relative;
+			z-index: 1000000;}
+
 		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
 		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; float:left; padding: 0 150px 0 20px; margin: -35px 50px 0 auto !important; }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; display: none; }
+		#about { width: 360px; float:left; padding: 0 0px 0 0px; margin: 0px 50px 0 auto !important; position: ; display: relative; clear: both; }
 		/*@media ( #monogram { position: relative; width: auto; padding: 20px; margin: 0; }
 		#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }*/
 		background-image { opacity: 0.2; }
@@ -40,14 +52,15 @@
 </head>	
     
 <body>
-<div id = "header">
-<p> "All mimsy were the borogoves,
+	<p class = "ontop"> "All mimsy were the borogoves,
 And the mome raths outgrabe" </p>
+<div id = "header">
 </div>
+<div style="clear:both;"> </div>
 <!-- swap out for a logo -->
-<div id="monogram">
+<!-- <div id="monogram">
 	
-</div> 
+</div>  -->
 
 <!-- swap out for information about yourself -->
 

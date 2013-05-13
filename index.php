@@ -18,14 +18,14 @@
 		#header{
 			background-color: white;
 			opacity: .4;
-			position: fixed;
+			position: absolute;
 			width: 100%;
-			display: inline-block;
+			display: inline;
 			top:0px; margin:auto; 
 			font-style: bold;
 			padding: 3px;
 			height: 2em;
-			border-radius: 5px;
+			border-radius: 0px 0px 10px 10px;
 			z-index: 0;
 			top:0px; }
 		
